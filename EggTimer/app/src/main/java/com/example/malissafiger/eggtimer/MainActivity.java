@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void controltimer(View view){
 
-        if(counterisactive=false)
+        if(counterisactive == false)
         {
             counterisactive = true;
             seekBar.setEnabled(false);
